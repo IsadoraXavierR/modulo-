@@ -58,35 +58,19 @@
             <input type="text" class="form-control" id="RG" placeholder="RG">
           </div>
         </div>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputCity">CEP</label>
-              <input type="number" class="form-control" id="CEP">
-            </div>
-        
-        <div class="form-row">
-          <div class="form-group col-md-4">
-            <label for="inputState">Estado</label>
-            <input type="text" id="inputState" class="form-control">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputCity">Cidade</label>
-            <input type="text" class="form-control" id="Cidade" placeholder="Cidade">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputAddress">Bairro</label>
-            <input type="text" class="form-control" id="bairro" placeholder="bairro">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputAddress">Rua</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="rua">
-          </div>
-          <div class="form-group  col-md-6">
-            <label for="inputAddress">Numero</label>
-            <input type="number" min="0" class="form-control" id="numero" placeholder="numero">
-          </div>
-        </div>
-        <br>
+        <label>Cep:
+          <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+                 onblur="pesquisacep(this.value);" /></label><br />
+          <label>Rua:
+          <input name="rua" type="text" id="rua" size="60" /></label><br />
+          <label>Bairro:
+          <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+          <label>Cidade:
+          <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+          <label>Estado:
+          <input name="uf" type="text" id="uf" size="2" /></label><br />
+          <label>IBGE:
+          <input name="ibge" type="text" id="ibge" size="8" /></label><br />
         <button type="submit" class="btn btn-primary">Cadastrar</button>
     </form>
 
