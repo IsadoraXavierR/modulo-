@@ -1,14 +1,18 @@
 body {
-    height: 100%;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  #page-content {
-    flex: 1 0 auto;
-  }
-  
-  body {
-    background-color:black;
-    color: goldenrod;
-  }
+  height: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  color: goldenrod;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+@media (max-width: 768px) {
+.carousel-slide {
+height: auto;
+width: auto;
+}
+.body { font-size:14px}
+}
 

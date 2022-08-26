@@ -23,3 +23,10 @@ html {
   .card-deck .card {
     min-width: 220px;
   }
+  @media (max-width: 768px) {
+  .carousel-slide {
+  height: auto;
+  width: auto;
+  }
+  .body { font-size:14px}
+  }

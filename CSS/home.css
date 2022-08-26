@@ -1,49 +1,56 @@
 body {
-    height: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  
-  #page-content {
-    flex: 1 0 auto;
-  }
-  
-  
-  body {
-    background-color: black;
-    color: goldenrod;
-  }
+  height: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  color: goldenrod;
+}
 
-  .imagem-carrossel-um{
-    object-fit: cover;
-    object-position: 0 80%;
-    height: 90vh;
+#page-content {
+  flex: 1 0 auto;
+}
+
+
+
+
+.imagem-carrossel-um{
+  object-fit: cover;
+  object-position: 0 80%;
+  height: 90em;
+
 }
 
 .imagem-carrossel-dois{
-  object-fit: cover;
-  object-position: 0 20%;
-  height: 90vh;
+object-fit: cover;
+object-position: 0 20%;
+height: 90em;
 }
 
 .imagem-carrossel-tres{
-    object-fit: cover;
-    object-position: 0 30%;
-    height: 90vh;
+  object-fit: cover;
+  object-position: 0 30%;
+  height: 90em;
 }
 
 p{
-  font-family: Verdana;
-  font-size: 18px;
-  text-align: center;
-  margin-left: 9%;
-  margin-right: 9%;
+font-family: Verdana;
+font-size: 18px;
+text-align: center;
+margin-left: 9%;
+margin-right: 9%;
 }
 
 h1{
-  text-align: center;
-  font-family: Verdana;
+text-align: center;
+font-family: Verdana;
 }
 
 h4{
-  text-align: center;
+text-align: center;
+}
+@media (max-width: 768px) {
+.carousel-slide {
+height: auto;
+width: auto;
+}
+.body { font-size:14px}
 }
